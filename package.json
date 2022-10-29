@@ -1,0 +1,19 @@
+{
+  "name": "locadora",
+  "version": "1.0.0",
+  "description": "Projeto com Node JS e Express para uma locadora de carro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenimsilva/locadora.git"
+  },
+  "author": "Breno e Alisson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenimsilva/locadora/issues"
+  },
+  "homepage": "https://github.com/brenimsilva/locadora#readme"
+}
