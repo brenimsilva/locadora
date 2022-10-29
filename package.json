@@ -4,7 +4,9 @@
   "description": "Projeto com Node JS e Express para uma locadora de carro",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/brenimsilva/locadora/issues"
   },
-  "homepage": "https://github.com/brenimsilva/locadora#readme"
+  "homepage": "https://github.com/brenimsilva/locadora#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.7",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
 }
